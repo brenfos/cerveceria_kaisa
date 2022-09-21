@@ -1,0 +1,73 @@
+body{
+    height: 100vh;
+    width: 100 vw;
+    background-color: black;
+ }
+
+
+header{
+    height: 10vh;
+}
+
+nav{
+    z-index: 9;
+}
+
+.navbar-nav > li{
+    padding-left:2.5em;
+    padding-right:2.5em;
+  }
+
+div ul li a{
+    color: aliceblue !important;
+    font-family: 'Aref Ruqaa Ink', serif;  
+}
+
+main{
+    height: 80vh;
+}
+
+
+.carousel-inner{
+    height: 80vh;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif !important;    
+}
+
+
+h5{
+    font-weight: bolder;
+    color:aliceblue;
+}
+
+
+form{
+    font-family: 'Raleway', sans-serif !important;
+    color: aliceblue;
+    
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(112, 23, 23);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+footer{
+    height: 10vh;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+#navbarNav {
+    background-color: black;
+}
